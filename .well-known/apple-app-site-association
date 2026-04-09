@@ -1,0 +1,17 @@
+
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [ "6451123915.studio.pitch.mentor" ],
+        "components": [
+          {
+            "/": "/app*",
+            "comment": "Matches anything starting with /app"
+          }
+        ]
+      }
+    ]
+  }
+}
