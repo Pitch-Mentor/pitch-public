@@ -1,1 +1,14 @@
-
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "studio.pitch.mentor",
+      "sha256_cert_fingerprints": [
+        "08:7D:FB:48:8E:CB:54:93:70:B1:A9:7B:C4:37:ED:01:BE:FC:45:91:11:02:84:89:74:FA:B3:05:B3:A1:E9:D3"
+      ]
+    }
+  }
+]
