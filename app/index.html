@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting to Pitch Mentor...</title>
+    <script type="text/javascript">
+        (function() {
+            var appleURL = "https://apps.apple.com/us/app/pitch-mentor/id6451123915";
+            var androidURL = "https://play.google.com/store/apps/details?id=studio.pitch.mentor";
+            
+            // Check for iPhone, iPad, iPod, or Mac
+            var isApple = /iPhone|iPad|iPod|Macintosh/i.test(navigator.userAgent);
+            // Additional check for iPads/Macs with touch capability that might mask as "Macintosh"
+            var isMobileApple = isApple && ('ontouchend' in document);
+
+            if (isApple) {
+                window.location.href = appleURL;
+            } else if (/Android/i.test(navigator.userAgent)) {
+                window.location.href = androidURL;
+            } else {
+                // Fallback for Windows or Linux desktop: Default to Apple or a landing page
+                window.location.href = appleURL; 
+            }
+        })();
+    </script>
+</head>
+<body>
+    <p style="font-family: sans-serif; text-align: center; margin-top: 50px;">
+        Redirecting to the App Store... <br><br>
+        If you are not redirected, 
+        <a href="https://apps.apple.com/us/app/pitch-mentor/id6451123915">click here for iOS</a> or 
+        <a href="https://play.google.com/store/apps/details?id=studio.pitch.mentor">here for Android</a>.
+    </p>
+</body>
+</html>
